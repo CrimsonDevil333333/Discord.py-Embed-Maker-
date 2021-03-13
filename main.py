@@ -45,7 +45,7 @@ while n==True:
         if footer_try ==1:
             name = input("enter text --\n")
             icon = input("Enter icon url for author ==\n")
-            test = f"embed.set_author(text = '{name}' , icon_url = '{icon}')"     
+            test = f"embed.set_footer(text = '{name}' , icon_url = '{icon}')"     
             file = open("embed.txt","a")
             file.write( test +'\n')
             file.close
